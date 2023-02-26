@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h2>The item was added succesfully!</h2>
+    <p>Item <%= item.name %> is <% if (item.for_sale == true) { %>
+    for sale
+    <% } else { %>
+    in search
+    <% } %>
+    for <%= item.price %> $.
+    <br>Tags: 
+    <ul>
+      <% item.tags.forEach(function(tag) { %>
+        <li><%= tag %></li>
+      <% }) %>
+      </ul>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "items": [
+    {
+    "name": "Bicicleta",
+    "for_sale": true,
+    "price": 235,
+    "image": "bicycle.jpg",
+    "tags": [ "lifestyle", "motor"]
+    },
+    {
+    "name": "iPhone 3GS",
+    "for_sale": false,
+    "price": 50,
+    "image": "iphone.jpg",
+    "tags": [ "lifestyle", "mobile"]
+    },
+    {
+    "name": "Nothing Ear (1)",
+    "for_sale": true,
+    "price": 148,
+    "image": "earphones.jpg",
+    "tags": [ "work", "lifestyle", "mobile"]
+    },
+    {
+    "name": "Sofa comfy",
+    "for_sale": true,
+    "price": 367,
+    "image": "sofa.jpg",
+    "tags": [ "lifestyle"]
+    }
+    ]
+    }

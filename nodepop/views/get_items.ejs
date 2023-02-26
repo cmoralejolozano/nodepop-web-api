@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <h2>Available items:</h2>
+    <% items.forEach(item => { %>
+    <p>Item <%= item.name %> is <% if (item.for_sale == true) { %>
+    for sale
+    <% } else { %>
+    in search
+    <% } %>
+    for <%= item.price %> $.
+    <br>The ad identifier is: <%= item._id %>
+    <br>Tag/s: 
+    <ul>
+      <% item.tags.forEach(function(tag) { %>
+        <li><%= tag %></li>
+      <% }) %>
+      </ul>
+      <img src= "<%= '/images/' + item.image %>" alt= "<% item.image.slice(0, -4) %>">
+    <% }) %>
+    </p>
+  </body>
+</html>
