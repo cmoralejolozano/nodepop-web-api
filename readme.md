@@ -6,7 +6,7 @@ Nodepop API is a RESTful API that provides basic CRUD operations for items based
 
 To install Nodepop API, you need to have Node.js and MongoDB installed on your machine. Then follow these steps:
 
-1. Clone this repository: `git clone https://github.com/example/simple-api.git`
+1. Clone this repository: `git clone https://github.com/cmoralejolozano/nodepop-web-api.git`
 
 2. Navigate to the project folder:
 ```sh
